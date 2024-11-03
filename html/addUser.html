@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Usuario - Admin</title>
+    <link rel="stylesheet" href="../css/addUser.css">
+</head>
+<body>
+    <div class="container">
+        <main class="content">
+            <nav class="top-nav">
+                <img src="../images/fepscLogo.png" alt="FEPSC Logo" class="logo">
+                <a href="addUser.html">Agregar Usuario</a>
+                <a href="handleRequests.html">Manejar Posts</a>
+                <a href="index.html">Analíticas</a>
+                <a href="maps.html" class="highlight">Mapa</a>
+                <a href="yoEmpresario_list.html">Yo Empresario</a>
+            </nav>
+
+            <div class="form-container">
+                <form action="#" method="post">
+                    <input type="text" placeholder="Username" required>
+                    <input type="password" placeholder="Contraseña" required>
+                    <select required>
+                        <option value="" disabled selected>Rol</option>
+                        <option value="admin">Admin</option>
+                        <option value="user">User</option>
+                    </select>
+                    <button type="submit" class="submit-btn">Agregar Usuario</button>
+                </form>
+            </div>
+        </main>
+    </div>
+    <script src="../js/toggleSidebar.js"></script>
+</body>
+</html>
